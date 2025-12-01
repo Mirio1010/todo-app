@@ -1,11 +1,9 @@
-## simple todo app to practice DOM, Localstorage, and event listeners
-https://mirio1010.github.io/todo-app/
 
 # Todo App
-A simple vanilla JavaScript todo application using localStorage.
+A simple vanilla JavaScript todo application to practice DOM, Localstorage, and event listeners.
 
 ## Live Demo
-👉 [https://YOUR-USERNAME.github.io/REPO-NAME/](https://mirio1010.github.io/todo-app/)
+👉 [Open the Todo App](https://mirio1010.github.io/todo-app/)
 
 ## Features
 - Add tasks  
