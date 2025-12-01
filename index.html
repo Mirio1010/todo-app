@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <h1>todo list</h1>
+
+    <!-- form -->
+
+    <form action="" style="display: inline">
+      <input
+        type="text"
+        style="border-radius: 5px; font-size: 1.5rem; border-style: none"
+        placeholder="thing to do..."
+      />
+      <button
+        type="submit"
+        style="
+          background-color: green;
+          color: white;
+          border-style: none;
+          border-radius: 5px;
+          font-size: 1.5rem;
+          cursor: pointer;
+        "
+      >
+        add
+      </button>
+    </form>
+
+    <button
+      class="clearBtn"
+      style="
+        background-color: red;
+        color: white;
+        border-radius: 5px;
+        border-style: none;
+        font-size: 1.5rem;
+        display: inline;
+        cursor: pointer;
+      "
+    >
+      clear
+    </button>
+<!-- List -->
+    <ul class="todoList"></ul>
+    <script src="app.js"></script>
+  </body>
+</html>
